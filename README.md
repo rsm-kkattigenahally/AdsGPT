@@ -1,7 +1,9 @@
 Overview:
+
 This project focuses on the cleaning, analysis, and processing of publicly available English conversational datasets to identify conversations with potential commercial intent. By leveraging advanced language models, such as GPT4ALL with the LLaMA 38B model, the analysis determines whether a conversation demonstrates commercial intent.
 
 Key Dataset:
+
 The primary dataset used for analysis is WildChat:
 1. WildChat - https://huggingface.co/datasets/allenai/WildChat-1M/tree/main/data
 
@@ -12,11 +14,13 @@ Additionally, the following datasets were were cleaned and prepared:
 3. ShareGPT - https://huggingface.co/datasets/RyokoAI/ShareGPT52K
 
 Objectives:
+
 Data Cleaning: Standardize and preprocess conversations in the datasets.
 Keyword Identification: Detect commercial keywords within conversations.
 Commercial Intent Analysis: Use GPT4ALL (LLaMA 38B) to classify conversations as having commercial intent.
 
 Repository Content:
+
 Code for WildChat Dataset: Scripts for data cleaning and preparation specific to the WildChat dataset.
 Code for Other Datasets: Cleaning scripts for the Dialog Studio, UltraChat200k, and ShareGPT datasets.
 
@@ -31,6 +35,7 @@ Llama_wildchat_analysis.ipynb - Uses LLama to analyse the cleaned wildchat data 
 To setup an automatic google sheet update refer to this article -https://medium.com/daily-python/python-script-to-edit-google-sheets-daily-python-7-aadce27846c0
 
 Usage:
+
 Clone the repository and ensure required dependencies are installed.
 Use the provided cleaning scripts to preprocess individual datasets.
 Run the analysis module to identify conversations with commercial intent.
